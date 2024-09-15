@@ -33,6 +33,12 @@ public class Lottery {
 				return;
 			}
 		}
+		
+		//檢查是否排除過多號碼
+		if(filterNum.size() > 43) {
+			System.out.println("排除過多號碼，無法生成六個數字！");
+			return;
+		}
 
 		// 隨機生成排除指定號碼的樂透數字
 		Random random = new Random();
