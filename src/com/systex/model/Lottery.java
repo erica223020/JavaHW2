@@ -10,7 +10,7 @@ public class Lottery {
 		
 		// 檢查參數是否有樂透張數和要排除的號碼兩個
 		if(args.length < 2) {
-			System.out.println("請輸入正確格式:2 \"5 25 30 33 42\"");
+			System.out.println("請輸入正確格式，例如:2 \"5 25 30 33 42\"");
 			return;
 		}
 		
@@ -32,12 +32,6 @@ public class Lottery {
 				System.out.println("號碼請在1～49之間！");
 				return;
 			}
-		}
-		
-		//檢查是否排除過多號碼
-		if(filterNum.size() > 43) {
-			System.out.println("排除過多號碼，無法生成六個數字！");
-			return;
 		}
 
 		// 隨機生成排除指定號碼的樂透數字
