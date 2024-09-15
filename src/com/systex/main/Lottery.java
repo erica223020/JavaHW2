@@ -1,4 +1,4 @@
-package com.systex.model;
+package com.systex.main;
 
 import java.util.HashSet;
 import java.util.Random;
