@@ -24,5 +24,5 @@ java com.systex.main.Sorting -1
 ```bash
 # 產出兩張樂透號碼，排除數字:5,25,30,33,46
 
-java com.systex.model.Lottery 2 "5 25 30 33 46"
+java com.systex.main.Lottery 2 "5 25 30 33 46"
 ```
